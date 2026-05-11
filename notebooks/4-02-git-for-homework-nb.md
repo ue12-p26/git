@@ -72,7 +72,7 @@ quelques conseils dans ce cas de figure:
 ### devoir avec *starter repo*
 
 on pourra également vous donner parfois un TP qui se présente sous la forme d'un repo git déjà constitué  
-pour avoir une idée vous pouvez aller voir un exemple d'un tel repo ici <https://github.com/ue22-p25/web-xkcd>  
+pour avoir une idée vous pouvez aller voir un exemple d'un tel repo ici <https://github.com/ue22-p26/web-xkcd>  
 
 c'est finalement plus simple ici, puisqu'il y a déjà un repo constitué, mais voici tout de même quelques conseils
 
@@ -99,7 +99,7 @@ en détails ça donnerait ceci
 :width: 500px
 ```
 
-- vous allez sur la page du repo - e.g. <https://github.com/ue22-p25/web-xkcd> - et vous cliquez sur *Fork*
+- vous allez sur la page du repo - e.g. <https://github.com/ue22-p26/web-xkcd> - et vous cliquez sur *Fork*
 - cela crée pour vous une copie ici <https://github.com/jeanmineur/web-xkcd>
 - que vous clonez sur votre ordi en faisant (vous savez maintenant copier-coller l'URL depuis github)
   ```bash
@@ -113,7 +113,7 @@ en détails ça donnerait ceci
 
 - vous commencez par cloner le repo
   ```
-  git clone git@github.com:ue22-p25/web-xkcd.git
+  git clone git@github.com:ue22-p26/web-xkcd.git
   ```
 - vous allez sur github créer un repo:
   - de préférence utilisez le même nom

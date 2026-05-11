@@ -57,7 +57,7 @@ ou n'importe quel repo sur github - ça marche aussi pour certains TPs:
 * une fois dans le bon dossier, il va falloir faire un `git clone`  
   et pour trouver le bon URL, vous
 
-  * allez sur la page du repo sur github, [par exemple ici](https://github.com/ue12-p25/numerique)
+  * allez sur la page du repo sur github, [par exemple ici](https://github.com/ue12-p26/numerique)
   * vous copiez dans le presse-papier l'URL du repo - en prenant bien SSH  
   ```{image} media/github-choose-ssh.png
   :width: 500px
@@ -68,7 +68,7 @@ ou n'importe quel repo sur github - ça marche aussi pour certains TPs:
   ```bash
   #         cette partie est copiée depuis github.com
   #         ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-  git clone git@github.com:ue12-p25/numerique.git
+  git clone git@github.com:ue12-p26/numerique.git
   ```
 
 * un dossier va être créé, ici il s'appelle `numerique`  
@@ -81,11 +81,11 @@ ou n'importe quel repo sur github - ça marche aussi pour certains TPs:
 ## cours disponibles
 
 en naviguant sur github et plus particulièrement [sur la page de l'orga
-ue12-p25](https://github.com/ue12-p25/), vous pouvez voir l'ensemble des
+ue12-p26](https://github.com/ue12-p26/), vous pouvez voir l'ensemble des
 répertoires des cours d'informatique que vous avez eu jusque-là ! 
 
 :::{admonition} et au second semestre ?
-au second semestre les cours seront dans l'orga <https://github.com/ue22-p25/>
+au second semestre les cours seront dans l'orga <https://github.com/ue22-p26/>
 :::
 
 +++

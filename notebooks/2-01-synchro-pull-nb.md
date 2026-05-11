@@ -99,7 +99,7 @@ nous allons l'exécuter sur un repo de test pour mettre en évidence d'autres ef
 vérifiez que vous n'avez pas de dossier qui s'appelle `sandbox`, et tapez dans votre terminal la commande
 
 ```bash
-git clone git@github.com:ue12-p25/git-sandbox.git sandbox
+git clone git@github.com:ue12-p26/git-sandbox.git sandbox
 ```
 ce qui devrait produire une sortie dans le genre de ceci
 ```text
@@ -161,7 +161,7 @@ la formule proposée par github comporte justement la création "à la main" du 
 ````{admonition} un *remote*, c'est juste un alias
 * dans notre cas du coup, `origin` c'est bien sûr celui sur github (ça pourrait être quoi d'autre ?)
 * et surtout, ce nom `origin` en fait c'est **juste un alias** pour l'URL  
-  `git@github.com:ue12-p25/git-sandbox.git`
+  `git@github.com:ue12-p26/git-sandbox.git`
 
 on va pouvoir utiliser ce nom à chaque fois qu'on voudra interagir avec un autre repo, en utilisant une commande de synchronisation, comme `push`, `pull`, enfin tout ce qu'on va voir tout de suite
 
@@ -186,7 +186,7 @@ git remote get-url origin
 ```
 qui nous répond
 ```text
-git@github.com:ue12-p25/git-sandbox.git
+git@github.com:ue12-p26/git-sandbox.git
 ```
 ````
 
@@ -328,7 +328,7 @@ c'est la notion de *tracking branch*: on a associé la branche locale `main` à 
 les curieux peuvent regarder le contenu de `.git/config`, et observer notamment ceci
 ```text
 [remote "origin"]
-	url = git@github.com:ue12-p25/git-sandbox.git
+	url = git@github.com:ue12-p26/git-sandbox.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin

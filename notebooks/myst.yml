@@ -13,7 +13,7 @@ project:
   authors:
     - Thierry Parmentelat
     - Valérie Roy
-  github: https://github.com/ue12-p25/git
+  github: https://github.com/ue12-p26/git
   keywords:
     - Informatique
     - MinesParis
@@ -29,7 +29,7 @@ site:
   #template: book-theme
   template: https://github.com/flotpython/myst-theme/releases/download/custom/book-theme.zip
   # used in the tab name
-  title: ue12-p25-git
+  title: ue12-p26-git
   # this would be for the horizontal header bar - not used here (yet)
   # nav: []
   # actions:
@@ -38,7 +38,7 @@ site:
   domains: []
   options:
     # see the comment on this in the numerique course
-    favicon: media/favicon-p25.svg.ico
+    favicon: media/favicon-p26.svg.ico
     logo: media/logo-git-square.svg
     # very visible in the header
     logo_text: "UE12: git"

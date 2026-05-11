@@ -186,7 +186,7 @@ parce que ça permet de ne `add` que les fichiers originellement dans le repo, s
 +++
 
 Clonez ce dépôt et suivez les instructions du README:
-<https://github.com/ue12-p25/git-tp-add-by-lines>
+<https://github.com/ue12-p26/git-tp-add-by-lines>
 
 +++
 

@@ -20,8 +20,8 @@ language_info:
 +++
 
 [![Published](https://img.shields.io/badge/Published-Website-green)](https://git.info-mines.paris)
-[![MyST Build Status](https://img.shields.io/github/actions/workflow/status/ue12-p25/git/myst-to-pages.yml?branch=main&label=MyST%20Build%20Status)](https://github.com/ue12-p25/git/actions/workflows/myst-to-pages.yml)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/ue12-p25/git)
+[![MyST Build Status](https://img.shields.io/github/actions/workflow/status/ue12-p26/git/myst-to-pages.yml?branch=main&label=MyST%20Build%20Status)](https://github.com/ue12-p26/git/actions/workflows/myst-to-pages.yml)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/ue12-p26/git)
 [![Git Cheat Sheet](https://img.shields.io/badge/Git-Cheat%20Sheet-orange?logo=git)](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
 [![License: CC BY-NC-ND](https://img.shields.io/badge/License-CC%20BY--NC--ND-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) *Valérie Roy & Thierry Parmentelat*

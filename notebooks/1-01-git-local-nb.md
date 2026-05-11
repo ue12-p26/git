@@ -576,8 +576,7 @@ désigner le dernier commit**.
 
 +++ {"cell_style": "split"}
 
-```{image} media/kn-refs-branche-courante.svg
-:width: 500px
+```{image} media/refs-branche-courante.excalidraw.svg
 :align: center
 ```
 
@@ -673,7 +672,7 @@ Nous voyons là les trois états des **fichiers** de notre répertoire courant:
 
 Nous pouvons maintenant décrire les **3 morceaux** de notre répertoire git:
 
-```{image} media/kn-repo-contents-3-add-index-commit.svg
+```{image} media/repo3-add-commit.excalidraw.svg
 :width: 800px
 :align: center
 ```
@@ -897,12 +896,12 @@ la partie en couleur qui dit `(HEAD -> main)`
 
 Voici une illustration; on a anticipé un petit peu, on a imaginé le cas où la branche courantee est `devel` (encadrée), pour montrer la logique que suivent les références lorsqu'on fait un commit :
 
-* `HEAD` et la branche courante *avancent* pour suivre le cours du projet et désigner le dernier commit
-* alors que toutes les autres branches (ici on n'en a qu'une) quant à elles restent fixes
+* `HEAD` et la branche **courante** (ici `devel`) **avancent** pour suivre le cours du projet et désigner le dernier commit
+* alors que toutes les autres branches (ici seulement `main`) quant à elles **restent fixes**
 
 +++ {"cell_style": "split"}
 
-```{image} media/kn-refs-head.svg
+```{image} media/refs-head.excalidraw.svg
 :width: 500px
 :align: center
 ```
@@ -1115,15 +1114,15 @@ Du fait de la présence de l'`index`, il y a deux classes de différences
 
 la commande `git diff` vient en deux versions (avec ou sans l'argument `--cached`) qui permettent de montrer ces deux classes de différences
 
-```{image} media/kn-diffs.svg
+```{image} media/repo3-diffs.excalidraw.svg
 :width: 800px
 :align: center
 ```
 
 ````{admonition} diff --cached ou diff --staged
-:class: dropdown seealso 
+:class: dropdown seealso
 
-on peut aussi utiliser comme synonyme l'option `git diff --staged` 
+on peut aussi utiliser comme synonyme l'option `git diff --staged`
 ````
 
 +++
@@ -1372,7 +1371,7 @@ Pour illustrer un peu mieux, voyons un graphe un peu plus intéressant - on ne s
 
 +++ {"cell_style": "split"}
 
-```{image} media/kn-commit-parents.svg
+```{image} media/commit-parents.excalidraw.svg
 :width: 200px
 :align: center
 ```
@@ -1483,15 +1482,12 @@ Nous pourrons ainsi naviguer dans les graphes, par exemple:
 * `HEAD~2` désigne le parent du parent de `HEAD`
 * `HEAD^2` désigne le deuxième parent de `HEAD`
 
-autrement dit,
+autrement dit, et c'est illustré sur la figure ci-dessous:
 
-* *`X~`* est dans le sens de la hauteur, alors que
-* *`X^`* travaille dans le sens de la largeur
+* *`X~`* est dans le sens de la hauteur (en vert), alors que
+* *`X^`* travaille dans le sens de la largeur (en rouge)
 
-ce qui est illustré sur cette figure
-
-```{image} media/kn-commit-navigation.svg
-:width: 300px
+```{image} media/commit-navigation.excalidraw.svg
 :align: center
 ```
 ````

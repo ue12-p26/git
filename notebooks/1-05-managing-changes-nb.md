@@ -72,7 +72,7 @@ dans un premier temps on revoit, sous une forme visuelle, les commandes qu'on a 
 
 on utilisera ce type de présentation dans la suite :
 
-```{image} media/kn-lifecycle-1-clean.svg
+```{image} media/lifecycle-1-clean.excalidraw.svg
 :align: center
 ```
 
@@ -84,7 +84,7 @@ on utilisera ce type de présentation dans la suite :
 
 en général le dépôt n'est pas propre, on peut voir les (deux familles de) différences avec ces 2 commandes
 
-```{image} media/kn-lifecycle-2-status-diff.svg
+```{image} media/lifecycle-2-status-diff.excalidraw.svg
 :align: center
 ```
 
@@ -96,7 +96,7 @@ en général le dépôt n'est pas propre, on peut voir les (deux familles de) di
 
 #### j'utilise mon éditeur
 
-```{image} media/kn-lifecycle-3-editor.svg
+```{image} media/lifecycle-3-editor.excalidraw.svg
 :align: center
 ```
 
@@ -108,7 +108,7 @@ le changement que je sauve δ s'ajoute en fait aux différences existantes, qui 
 
 #### `git add`
 
-```{image} media/kn-lifecycle-4-add.svg
+```{image} media/lifecycle-4-add.excalidraw.svg
 :align: center
 ```
 
@@ -120,7 +120,7 @@ la différence apparait maintenant dans la deuxième zone (*staged changes*)
 
 #### `git commit`
 
-```{image} media/kn-lifecycle-5-commit.svg
+```{image} media/lifecycle-5-commit.excalidraw.svg
 :align: center
 ```
 
@@ -167,7 +167,7 @@ ou encore, pendant le debug on a ajouté 250 instructions `print()`, qu'on veut 
 
 pour annuler le `add` : si un changement a été promu dans l'index, on peut le déclasser
 
-```{image} media/kn-lifecycle-6-restore-staged.svg
+```{image} media/lifecycle-6-restore-staged.excalidraw.svg
 :align: center
 ```
 
@@ -179,7 +179,7 @@ pour annuler le `add` : si un changement a été promu dans l'index, on peut le
 
 pour jeter les changements non indexés
 
-```{image} media/kn-lifecycle-7-restore.svg
+```{image} media/lifecycle-7-restore.excalidraw.svg
 :align: center
 ```
 
@@ -191,7 +191,7 @@ pour jeter les changements non indexés
 
 pour se mettre inconditionnellement sur un commit, avec un dépôt propre
 
-```{image} media/kn-lifecycle-8-restore-worktree-staged.svg
+```{image} media/lifecycle-8-restore-both.excalidraw.svg
 :align: center
 ```
 

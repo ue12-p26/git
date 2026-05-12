@@ -1,8 +1,5 @@
 version: 1
 
-# ouch: only the .md files are included in the output
-# this is why we have paired all the notebooks with a .md file
-
 # about url links; not supported as of feb 2025; follow up on
 # https://mystmd.org/guide/table-of-contents#url-entries
 # https://github.com/jupyter-book/mystmd/issues/1445
@@ -11,7 +8,7 @@ version: 1
 project:
   toc:
 
-    - file: 0-00-intro-git-nb
+    - file: 0-00-intro-git-nb.md
 
     - title: git en local
       children:

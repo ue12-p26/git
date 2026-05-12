@@ -56,7 +56,7 @@ on rappelle aussi d'ailleurs, dans un autre registre, qu'il est sage de lancer l
 
 une fusion *fast-forward*, c'est le cas où **le commit courant est déjà un parent** (transitivement) de `to-merge`; comme par exemple ici:
 
-```{image} media/kn-merge-fast-forward.svg
+```{image} media/merge-fast-forward.excalidraw.svg
 :width: 500px
 :align: center
 ```
@@ -67,7 +67,7 @@ une fusion *fast-forward*, c'est le cas où **le commit courant est déjà un pa
 * et donc par définition `C` **vérifie déjà la bonne propriété** 
   * `C` contient main (qui est un de ses parents)
   * `C` contient `devel` (c'est `devel`)
-  
+
 et du coup dans ce cas de figure, la fusion **n'a même pas besoin de créer un commit**  
 il suffit de **faire avancer** la branche courante (d'où le terme de *fast-forward*)
 
@@ -92,7 +92,7 @@ ici dans le premier exemple on avait `to-merge=C → B → HEAD=A`, donc pas bes
 ````{div}
 juste pour la curiosité, le cas se présente assez peu en pratique, mais que se passe-t-il d'après vous lorsque dans l'autre sens, on essaie de fusionner un parent ?
 
-```{image} media/kn-merge-anti-fast-forward.svg
+```{image} media/merge-anti-fast-forward.excalidraw.svg
 :width: 250px
 :align: center
 ```
@@ -296,7 +296,7 @@ ouh là, il n'a pas l'air content !
 
 ce qui se passe, c'est ceci
 
-```{image} media/kn-merge-conflict.svg
+```{image} media/merge-conflict.excalidraw.svg
 :width: 700px
 :align: center
 ```
